@@ -35,7 +35,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		System.out.println("test");
 		System.out.println("test2");//20160228 01
-		
+		System.out.println("test3");//20160228 02
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
